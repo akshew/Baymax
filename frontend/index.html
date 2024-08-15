@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baymax.ai</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="landing-page" class="landing-page">
+        <button class="animated-button" id="enter-button">
+            <svg xmlns="http://www.w3.org/2000/svg" class="arr-2" viewBox="0 0 24 24">
+                <path
+                    d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+            </svg>
+            <span class="text">Baymax.ai</span>
+            <span class="circle"></span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="arr-1" viewBox="0 0 24 24">
+                <path
+                    d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+            </svg>
+        </button>
+    </div>
+
+  
+    <div id="main-content" class="container hidden">
+        <div class="messages-area" id="messages">
+ 
+        </div>
+        <div class="sender-area">
+            <div class="input-place">
+                <input id="userInput" placeholder="Send a message." class="send-input" type="text">
+                <div class="send" id="sendBtn">
+                    <svg class="send-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="#6B6C7B" d="M481.508,210.336L68.414,38.926c-17.403-7.222-37.064-4.045-51.309,8.287C2.86,59.547-3.098,78.551,1.558,96.808L38.327,241h180.026c8.284,0,15.001,6.716,15.001,15.001c0,8.284-6.716,15.001-15.001,15.001H38.327L1.558,415.193c-4.656,18.258,1.301,37.262,15.547,49.595c14.274,12.357,33.937,15.495,51.31,8.287l413.094-171.409C500.317,293.862,512,276.364,512,256.001C512,235.638,500.317,218.139,481.508,210.336z"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        
+        const enterButton = document.getElementById('enter-button');
+        const landingPage = document.getElementById('landing-page');
+        const mainContent = document.getElementById('main-content');
+
+        enterButton.addEventListener('click', () => {
+            landingPage.classList.add('hidden');
+            mainContent.classList.remove('hidden');
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
