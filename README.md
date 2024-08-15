@@ -39,11 +39,4 @@ Baymax.ai is a simple chatbot using the Gemini API to generate responses based o
 
 ## Known Issue
 
-- **AI Response Issue:** The AI occasionally doesn't send replies correctly. If you can help resolve this, please contribute.
-
-## License
-
-MIT License
-```
-
-Regarding the AI response issue, it could be related to how the response is being handled in your backend or frontend. If you’d like, I can help you troubleshoot this further by reviewing your current code setup.
+- **AI Response Issue:** The AI doesn't send replies correctly. If you can help resolve this, please contribute.
