@@ -5,7 +5,7 @@ const { GoogleGenerativeAI } = require('@google/generative-ai');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use(express.static('frontend')); // Serve static files from 'frontend'
+app.use(express.static('frontend')); 
 app.use(express.json());
 
 const genAI = new GoogleGenerativeAI("AIzaSyCknw7IQPP39UzK9huDscA5JsQwv5GOMeg");
