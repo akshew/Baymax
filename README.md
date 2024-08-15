@@ -35,5 +35,5 @@ Baymax.ai is a simple chatbot using the Gemini API to generate responses based o
 ![Landing Page](./screenshot/landing_page.png)
 
 ### Chat Interface
-![Chat Interface](./screenshot/chat_interface.png)
+![Chat Interface](./screenshot/prompt_interface.png)
 
