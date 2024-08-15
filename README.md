@@ -9,7 +9,7 @@ Baymax.ai is a simple chatbot using the Gemini API to generate responses based o
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/baymax-ai.git
+   git clone https://github.com/yourusername/Baymax.git
    cd baymax-ai
    ```
 
