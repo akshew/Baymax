@@ -10,7 +10,7 @@ Baymax.ai is a simple chatbot using the Gemini API to generate responses based o
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/Baymax.git
-   cd baymax-ai
+   cd Baymax
    ```
 
 2. Install dependencies:
@@ -18,13 +18,13 @@ Baymax.ai is a simple chatbot using the Gemini API to generate responses based o
    npm install
    ```
 
-3. Add your Gemini API key in `config/keys.js`.
+3. Add your Gemini API key in `baymax.js`.
 
 ## Usage
 
 1. Start the server:
    ```bash
-   node backend/server.js
+   node baymax.js
    ```
 
 2. Access the chatbot at `http://localhost:3000`.
@@ -37,6 +37,3 @@ Baymax.ai is a simple chatbot using the Gemini API to generate responses based o
 ### Chat Interface
 ![Chat Interface](./screenshot/chat_interface.png)
 
-## Known Issue
-
-- **AI Response Issue:** The AI doesn't send replies correctly. If you can help resolve this, please contribute.
