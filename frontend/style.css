@@ -196,14 +196,12 @@
         }
 
         .container {
-            width: 90%;
-            height: auto;
-            padding: 15px;
+            height: 100vh; 
+            padding: 0;
         }
 
         .messages-area {
-            padding: 10px;
-            max-height: 400px;
+            padding-bottom: 60px; 
         }
 
         .message {
@@ -212,6 +210,10 @@
         }
 
         .sender-area {
+            position: fixed; 
+            bottom: 0;
+            left: 0;
+            right: 0;
             padding: 10px;
         }
 
