@@ -1,4 +1,3 @@
-Here's a more minimalist version of your `README.md`:
 
 ```markdown
 # Baymax.ai Chatbot
