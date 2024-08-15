@@ -1,14 +1,20 @@
 {
-  "name": "baymax-gpt",
+  "name": "nodejs",
   "version": "1.0.0",
-  "description": "A chatbot using Gemini API",
-  "main": "backend/server.js",
+  "description": "",
+  "main": "baymax.js",
   "scripts": {
-    "start": "node backend/server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "akshat",
+  "license": "ISC",
   "dependencies": {
     "@google/generative-ai": "^0.17.0",
-    "axios": "^1.5.0",
-    "express": "^4.18.2"
+    "@types/node": "^18.0.6",
+    "axios": "^1.7.4",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "react": "^18.3.1"
   }
 }
