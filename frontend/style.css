@@ -111,9 +111,8 @@ body {
     color: white;
     max-width: 80%;
     word-wrap: break-word;
-    background-color: rgba(52, 53, 65, 0.7); 
-    align-self: flex-start;
-}
+    background-color: rgba(52, 53, 65, 0.7);
+    align-self: flex-start; 
 
 .message.user {
     background-color: rgba(11, 147, 246, 0.7); 
@@ -123,6 +122,7 @@ body {
 .message.bot {
     background-color: rgba(64, 65, 79, 0.7); 
     align-self: flex-start; 
+}
 
 .sender-area {
     display: flex;
@@ -140,7 +140,7 @@ body {
     flex-grow: 1;
     display: flex;
     align-items: center;
-    border-radius: 25px;
+    border-radius: 25px; 
 }
 
 .send-input {
@@ -150,7 +150,7 @@ body {
     color: white;
     outline: none;
     font-size: 18px;
-    padding: 10px; 
+    padding: 10px;
     border-radius: 25px; 
 }
 
